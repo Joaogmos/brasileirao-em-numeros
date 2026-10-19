@@ -1,0 +1,185 @@
+{
+  "portoes_fechados": {
+    "saldo_com_publico": 0.5044422507403751,
+    "saldo_sem_publico": 0.3368421052631579,
+    "diferenca": -0.1676001454772172,
+    "ic95": [
+      -0.3265088715124435,
+      -0.008038503836095778
+    ],
+    "p_valor_permutacao": 0.019,
+    "queda_relativa": -0.33224842929240905,
+    "temporadas_com_publico_tao_baixas_quanto_2020": [
+      2017
+    ],
+    "desvio_padrao_entre_temporadas_com_publico": 0.08568921934952585,
+    "saldo_2022_2026": 0.417262231995602
+  },
+  "por_temporada": [
+    {
+      "temporada": 2012,
+      "jogos": 380,
+      "vitoria_mandante": 0.4816,
+      "empate": 0.2763,
+      "vitoria_visitante": 0.2421,
+      "saldo_medio": 0.4684,
+      "pontos_por_jogo_mandante": 1.7211,
+      "mercado_p_mandante": 0.4756,
+      "multiplicador_gols_casa": 1.4731
+    },
+    {
+      "temporada": 2013,
+      "jogos": 380,
+      "vitoria_mandante": 0.4842,
+      "empate": 0.2842,
+      "vitoria_visitante": 0.2316,
+      "saldo_medio": 0.4737,
+      "pontos_por_jogo_mandante": 1.7368,
+      "mercado_p_mandante": 0.4655,
+      "multiplicador_gols_casa": 1.4802
+    },
+    {
+      "temporada": 2014,
+      "jogos": 380,
+      "vitoria_mandante": 0.5184,
+      "empate": 0.2421,
+      "vitoria_visitante": 0.2395,
+      "saldo_medio": 0.5789,
+      "pontos_por_jogo_mandante": 1.7974,
+      "mercado_p_mandante": 0.4675,
+      "multiplicador_gols_casa": 1.6857
+    },
+    {
+      "temporada": 2015,
+      "jogos": 380,
+      "vitoria_mandante": 0.5263,
+      "empate": 0.2395,
+      "vitoria_visitante": 0.2342,
+      "saldo_medio": 0.5605,
+      "pontos_por_jogo_mandante": 1.8184,
+      "mercado_p_mandante": 0.4759,
+      "multiplicador_gols_casa": 1.6209
+    },
+    {
+      "temporada": 2016,
+      "jogos": 379,
+      "vitoria_mandante": 0.533,
+      "empate": 0.248,
+      "vitoria_visitante": 0.219,
+      "saldo_medio": 0.5699,
+      "pontos_por_jogo_mandante": 1.847,
+      "mercado_p_mandante": 0.4792,
+      "multiplicador_gols_casa": 1.6094
+    },
+    {
+      "temporada": 2017,
+      "jogos": 380,
+      "vitoria_mandante": 0.4395,
+      "empate": 0.2711,
+      "vitoria_visitante": 0.2895,
+      "saldo_medio": 0.3395,
+      "pontos_por_jogo_mandante": 1.5895,
+      "mercado_p_mandante": 0.4841,
+      "multiplicador_gols_casa": 1.3237
+    },
+    {
+      "temporada": 2018,
+      "jogos": 380,
+      "vitoria_mandante": 0.5316,
+      "empate": 0.2895,
+      "vitoria_visitante": 0.1789,
+      "saldo_medio": 0.5868,
+      "pontos_por_jogo_mandante": 1.8842,
+      "mercado_p_mandante": 0.4705,
+      "multiplicador_gols_casa": 1.7424
+    },
+    {
+      "temporada": 2019,
+      "jogos": 380,
+      "vitoria_mandante": 0.4842,
+      "empate": 0.2579,
+      "vitoria_visitante": 0.2579,
+      "saldo_medio": 0.4579,
+      "pontos_por_jogo_mandante": 1.7105,
+      "mercado_p_mandante": 0.4709,
+      "multiplicador_gols_casa": 1.4955
+    },
+    {
+      "temporada": 2020,
+      "jogos": 380,
+      "vitoria_mandante": 0.45,
+      "empate": 0.2842,
+      "vitoria_visitante": 0.2658,
+      "saldo_medio": 0.3368,
+      "pontos_por_jogo_mandante": 1.6342,
+      "mercado_p_mandante": 0.4307,
+      "multiplicador_gols_casa": 1.3166
+    },
+    {
+      "temporada": 2021,
+      "jogos": 380,
+      "vitoria_mandante": 0.4579,
+      "empate": 0.2974,
+      "vitoria_visitante": 0.2447,
+      "saldo_medio": 0.3263,
+      "pontos_por_jogo_mandante": 1.6711,
+      "mercado_p_mandante": 0.4364,
+      "multiplicador_gols_casa": 1.3462
+    },
+    {
+      "temporada": 2022,
+      "jogos": 380,
+      "vitoria_mandante": 0.4421,
+      "empate": 0.2842,
+      "vitoria_visitante": 0.2737,
+      "saldo_medio": 0.4289,
+      "pontos_por_jogo_mandante": 1.6105,
+      "mercado_p_mandante": 0.4583,
+      "multiplicador_gols_casa": 1.4386
+    },
+    {
+      "temporada": 2023,
+      "jogos": 380,
+      "vitoria_mandante": 0.4684,
+      "empate": 0.2579,
+      "vitoria_visitante": 0.2737,
+      "saldo_medio": 0.3474,
+      "pontos_por_jogo_mandante": 1.6632,
+      "mercado_p_mandante": 0.4655,
+      "multiplicador_gols_casa": 1.3245
+    },
+    {
+      "temporada": 2024,
+      "jogos": 380,
+      "vitoria_mandante": 0.4737,
+      "empate": 0.2658,
+      "vitoria_visitante": 0.2605,
+      "saldo_medio": 0.3763,
+      "pontos_por_jogo_mandante": 1.6868,
+      "mercado_p_mandante": 0.4579,
+      "multiplicador_gols_casa": 1.3652
+    },
+    {
+      "temporada": 2025,
+      "jogos": 380,
+      "vitoria_mandante": 0.5026,
+      "empate": 0.2605,
+      "vitoria_visitante": 0.2368,
+      "saldo_medio": 0.5289,
+      "pontos_por_jogo_mandante": 1.7684,
+      "mercado_p_mandante": 0.4611,
+      "multiplicador_gols_casa": 1.5292
+    },
+    {
+      "temporada": 2026,
+      "jogos": 299,
+      "vitoria_mandante": 0.4749,
+      "empate": 0.2809,
+      "vitoria_visitante": 0.2441,
+      "saldo_medio": 0.4013,
+      "pontos_por_jogo_mandante": 1.7057,
+      "mercado_p_mandante": 0.4633,
+      "multiplicador_gols_casa": 1.3539
+    }
+  ]
+}
