@@ -191,10 +191,10 @@ def carregar(caminho: Path = config.ARQUIVO_BRUTO, conferir: bool = True) -> Dad
     return dados
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Ingestao dos dados da Serie A")
     parser.add_argument("--atualizar", action="store_true", help="baixa a versao mais nova da fonte")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     if args.atualizar:
         m = baixar()

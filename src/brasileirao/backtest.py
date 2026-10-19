@@ -107,6 +107,17 @@ def probs(previsoes: pd.DataFrame, modelo: str) -> np.ndarray:
     return previsoes[[f"{modelo}_{r}" for r in config.RESULTADOS]].to_numpy()
 
 
+def _arredondar(obj, casas: int = 5):
+    """Arredonda floats aninhados: o JSON versionado nao muda por ruido na 10a casa do otimizador."""
+    if isinstance(obj, float):
+        return round(obj, casas)
+    if isinstance(obj, dict):
+        return {k: _arredondar(v, casas) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_arredondar(v, casas) for v in obj]
+    return obj
+
+
 def avaliar(previsoes: pd.DataFrame) -> dict:
     y = metricas.indices(previsoes["resultado"])
     geral = {m: metricas.resumo(probs(previsoes, m), y) for m in MODELOS}
@@ -124,8 +135,8 @@ def avaliar(previsoes: pd.DataFrame) -> dict:
         "dixon_coles - mercado": metricas.bootstrap_diferenca(rps["dixon_coles"], rps["mercado"]),
         "mercado_shin - mercado": metricas.bootstrap_diferenca(rps["mercado_shin"], rps["mercado"]),
     }
-    return {"n_jogos": len(previsoes), "temporadas": [min(TESTE), max(TESTE)], "geral": geral,
-            "por_temporada": por_temporada, "comparacoes_rps": comparacoes}
+    return _arredondar({"n_jogos": len(previsoes), "temporadas": [min(TESTE), max(TESTE)], "geral": geral,
+                        "por_temporada": por_temporada, "comparacoes_rps": comparacoes})
 
 
 def main() -> None:
@@ -135,7 +146,7 @@ def main() -> None:
     t0 = time.time()
     print("tunando hiperparametros em", VALIDACAO, "...")
     hiper = tunar(partidas)
-    ARQ_HIPER.write_text(json.dumps(hiper, indent=2) + "\n", encoding="utf-8")
+    ARQ_HIPER.write_text(json.dumps(_arredondar(hiper), indent=2) + "\n", encoding="utf-8")
 
     print("walk-forward no teste", TESTE[0], "-", TESTE[-1], "...")
     previsoes = rodar(partidas, hiper)
