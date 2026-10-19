@@ -1,0 +1,206 @@
+{
+  "pontos_reais": 43,
+  "posicao_real": 17,
+  "xpts_mercado": 44.07159292141886,
+  "pontos_simulados_media": 44.1348,
+  "pontos_simulados_ic90": [
+    32.0,
+    56.0
+  ],
+  "p_pontos_ate_o_real": 0.4738,
+  "p_rebaixamento_dadas_as_odds": 0.3949,
+  "posicao_simulada_mediana": 15.0,
+  "linha_de_corte_simulada_media": 41.01025,
+  "pontos_por_local": {
+    "casa": {
+      "pontos": 25,
+      "xpts": 27.96
+    },
+    "fora": {
+      "pontos": 18,
+      "xpts": 16.11
+    }
+  },
+  "pontos_por_turno": {
+    "1o turno": {
+      "pontos": 18,
+      "xpts": 21.59
+    },
+    "2o turno": {
+      "pontos": 25,
+      "xpts": 22.48
+    }
+  },
+  "jogos_como_favorito": 2,
+  "derrotas_como_favorito": 0,
+  "gols_sofridos": 64,
+  "goleadas_sofridas_3_ou_mais": 7,
+  "pre_temporada_dixon_coles": {
+    "p_rebaixamento": 0.17170000000000002,
+    "posicao_media": 11.36175,
+    "pontos_esperados": 50.4201,
+    "ranking_forca_pre_temporada": 11
+  },
+  "ranking_azar_entre_todas_as_campanhas": {
+    "posicao": 124,
+    "de": 280
+  },
+  "piores_campanhas_vs_esperado": [
+    {
+      "temporada": 2025,
+      "clube": "Sport",
+      "pontos": 17,
+      "xpts": 39.64,
+      "diferenca": -22.64
+    },
+    {
+      "temporada": 2019,
+      "clube": "Cruzeiro",
+      "pontos": 36,
+      "xpts": 55.63,
+      "diferenca": -19.63
+    },
+    {
+      "temporada": 2012,
+      "clube": "Palmeiras",
+      "pontos": 34,
+      "xpts": 52.59,
+      "diferenca": -18.59
+    },
+    {
+      "temporada": 2023,
+      "clube": "America-MG",
+      "pontos": 24,
+      "xpts": 41.33,
+      "diferenca": -17.33
+    },
+    {
+      "temporada": 2022,
+      "clube": "Juventude",
+      "pontos": 22,
+      "xpts": 38.34,
+      "diferenca": -16.34
+    },
+    {
+      "temporada": 2021,
+      "clube": "Chapecoense",
+      "pontos": 15,
+      "xpts": 30.81,
+      "diferenca": -15.81
+    },
+    {
+      "temporada": 2019,
+      "clube": "Avai",
+      "pontos": 20,
+      "xpts": 35.69,
+      "diferenca": -15.69
+    },
+    {
+      "temporada": 2021,
+      "clube": "Gremio",
+      "pontos": 43,
+      "xpts": 58.32,
+      "diferenca": -15.32
+    }
+  ],
+  "historico_santos": [
+    {
+      "temporada": 2012,
+      "clube": "Santos",
+      "pontos": 53,
+      "xpts": 54.86,
+      "diferenca": -1.86
+    },
+    {
+      "temporada": 2013,
+      "clube": "Santos",
+      "pontos": 57,
+      "xpts": 47.97,
+      "diferenca": 9.03
+    },
+    {
+      "temporada": 2014,
+      "clube": "Santos",
+      "pontos": 53,
+      "xpts": 54.35,
+      "diferenca": -1.35
+    },
+    {
+      "temporada": 2015,
+      "clube": "Santos",
+      "pontos": 58,
+      "xpts": 58.75,
+      "diferenca": -0.75
+    },
+    {
+      "temporada": 2016,
+      "clube": "Santos",
+      "pontos": 71,
+      "xpts": 58.62,
+      "diferenca": 12.38
+    },
+    {
+      "temporada": 2017,
+      "clube": "Santos",
+      "pontos": 63,
+      "xpts": 53.95,
+      "diferenca": 9.05
+    },
+    {
+      "temporada": 2018,
+      "clube": "Santos",
+      "pontos": 50,
+      "xpts": 56.58,
+      "diferenca": -6.58
+    },
+    {
+      "temporada": 2019,
+      "clube": "Santos",
+      "pontos": 74,
+      "xpts": 63.97,
+      "diferenca": 10.03
+    },
+    {
+      "temporada": 2020,
+      "clube": "Santos",
+      "pontos": 54,
+      "xpts": 48.49,
+      "diferenca": 5.51
+    },
+    {
+      "temporada": 2021,
+      "clube": "Santos",
+      "pontos": 50,
+      "xpts": 47.36,
+      "diferenca": 2.64
+    },
+    {
+      "temporada": 2022,
+      "clube": "Santos",
+      "pontos": 47,
+      "xpts": 49.3,
+      "diferenca": -2.3
+    },
+    {
+      "temporada": 2023,
+      "clube": "Santos",
+      "pontos": 43,
+      "xpts": 44.07,
+      "diferenca": -1.07
+    },
+    {
+      "temporada": 2025,
+      "clube": "Santos",
+      "pontos": 47,
+      "xpts": 52.19,
+      "diferenca": -5.19
+    },
+    {
+      "temporada": 2026,
+      "clube": "Santos",
+      "pontos": 42,
+      "xpts": 40.31,
+      "diferenca": 1.69
+    }
+  ]
+}
