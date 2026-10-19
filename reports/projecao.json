@@ -56,9 +56,9 @@
   "jogos_restantes": 81,
   "simulacoes": 20000,
   "santos": {
-    "posicao": 8.0,
-    "pontos": 42.0,
-    "jogos": 30.0,
+    "posicao": 8,
+    "pontos": 42,
+    "jogos": 30,
     "pontos_esperados": 52.8005,
     "pontos_p05": 47.0,
     "pontos_p95": 59.0,

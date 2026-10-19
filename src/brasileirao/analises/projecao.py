@@ -13,7 +13,6 @@ from __future__ import annotations
 import json
 
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -155,7 +154,7 @@ def main() -> None:
         "dados_ate": f"{sim['ultima_data']:%Y-%m-%d}",
         "jogos_restantes": len(sim["restantes"]),
         "simulacoes": N_SIMULACOES,
-        "santos": {k: (float(v) if isinstance(v, (float, np.floating)) else int(v)) for k, v in santos.items()},
+        "santos": {k: (int(v) if k in ("posicao", "pontos", "jogos") else float(v)) for k, v in santos.items()},
         "tabela_projetada": tabela.round(4).reset_index().to_dict("records"),
     }
     ARQ_JSON.write_text(json.dumps(saida, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
