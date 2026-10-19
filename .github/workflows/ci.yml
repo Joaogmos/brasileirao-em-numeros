@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar
+        run: pip install -e ".[dev,app]"
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Testes
+        run: pytest
+
+      # O pipeline rapido reprocessa tudo a partir do snapshot: garante que os
+      # resultados versionados em reports/ ainda saem do codigo atual.
+      - name: Pipeline (sem tuning)
+        run: python -m brasileirao.pipeline --rapido
