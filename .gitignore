@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Dados derivados: sao regerados pelo pipeline a partir de data/raw/
+data/processed/*
+!data/processed/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
